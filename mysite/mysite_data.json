@@ -1,0 +1,981 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2023-09-07T11:05:55.561Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "First Django project",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2023-09-07T15:16:03.326Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "One more post",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2023-09-07T17:11:19.797Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "what is next js ?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2023-09-07T17:12:15.915Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "what is DQN ?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2023-09-08T11:12:19.918Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Comment by Abdissa Degefu on First Django project",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2023-09-08T11:12:52.998Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Comment by Qwe Bolo on First Django project",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2023-09-08T12:14:01.722Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Comment by Abdissa Degefu on First Django project",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2023-09-08T12:14:35.401Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Comment by Abdissa Degefu on First Django project",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2023-09-08T16:18:24.074Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "what is DQN ?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2023-09-08T16:18:49.458Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "First Django project",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2023-09-08T16:33:58.504Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "First Django project",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2023-09-09T09:57:11.705Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Markdown Post",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2023-09-09T09:57:54.211Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Markdown Post",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2023-09-09T09:59:17.848Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Markdown Post",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2023-09-09T10:23:27.447Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "localhost:8000",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add post",
+    "content_type": 7,
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change post",
+    "content_type": 7,
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete post",
+    "content_type": 7,
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view post",
+    "content_type": 7,
+    "codename": "view_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add comment",
+    "content_type": 8,
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change comment",
+    "content_type": 8,
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete comment",
+    "content_type": 8,
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view comment",
+    "content_type": 8,
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 9,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 9,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 9,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 9,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add tagged item",
+    "content_type": 10,
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change tagged item",
+    "content_type": 10,
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete tagged item",
+    "content_type": 10,
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view tagged item",
+    "content_type": 10,
+    "codename": "view_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add site",
+    "content_type": 11,
+    "codename": "add_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change site",
+    "content_type": 11,
+    "codename": "change_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete site",
+    "content_type": 11,
+    "codename": "delete_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view site",
+    "content_type": 11,
+    "codename": "view_site"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$Q65VQBcB9tAqGWeXNkI3nU$Kk9idBqYE/ZvsSvaalPRqEhHdHIMAtMNT4fe2k1s5Ck=",
+    "last_login": "2023-09-07T10:59:33.841Z",
+    "is_superuser": true,
+    "username": "abdissad",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@admin.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-09-07T10:56:02.746Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "blog",
+    "model": "post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "blog",
+    "model": "comment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "taggit",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "taggit",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "sites",
+    "model": "site"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "rmftfzj2myr2c6t9clbtql3hrtad45q6",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlnrD7ChpM8ZrPV6jQPIluKkQtwdIqWA9s3Me6lA61LC2mUOU1IXZdThd4vED6kbSHeqt6a51WWeot4UvdOux5bked3dv4NCvXxrS8YhQIqDsPHAKB4lZ8_uRCTIzIRO0lGiP6NzkJNhj0RAdgDwVr0_AAo4dQ:1qeCjV:OR83hrBLYS8Xg_VlGBRpAijhbQdQwYHqI09IC08P8Mw",
+    "expire_date": "2023-09-21T10:59:33.858Z"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 1,
+  "fields": {
+    "title": "First Django project",
+    "slug": "What-is-Django-",
+    "body": "Django is a high-level Python web framework that's gained immense popularity among developers for its ease of use and robust features. It's a versatile tool for building web applications, ranging from simple blogs to complex e-commerce sites and beyond.\r\n\r\nOne of the standout features of Django is its built-in admin panel. It provides a user-friendly interface for managing your application's data, which is a huge time-saver during development. Plus, Django's Object-Relational Mapping (ORM) system simplifies database interactions, making it easy to work with databases like PostgreSQL, MySQL, and SQLite.\r\n\r\nDjango's URL routing system allows for clean and organized URL patterns, making your application's endpoints easy to manage. The framework's template system, while somewhat restrictive, encourages best practices in separating logic from presentation.\r\n\r\nSecurity is another area where Django shines. It comes with built-in protection against common web vulnerabilities like SQL injection, Cross-Site Scripting (XSS), and Cross-Site Request Forgery (CSRF) attacks. This out-of-the-box security helps developers focus on building their applications without worrying as much about potential security pitfalls.\r\n\r\nDjango also supports authentication and authorization features, making it relatively straightforward to implement user registration, login, and role-based access control. This is a major advantage for developers looking to create secure and user-friendly web applications.\r\n\r\nMoreover, Django follows the \"batteries-included\" philosophy, providing a wide range of reusable modules and packages in the form of Django apps. These apps cover everything from user authentication and content management to handling RESTful APIs.\r\n\r\nOn the downside, Django's learning curve can be a bit steep for beginners due to its many features and conventions. However, once you get past the initial hurdles, you'll appreciate the efficiency and maintainability it brings to your projects.\r\n\r\nIn conclusion, Django is a powerful web framework that offers a solid foundation for building web applications. Its robust features, security measures, and vibrant community make it an excellent choice for both small and large-scale projects. Whether you're a software engineering student or a seasoned developer, Django is definitely worth exploring for your web development needs.",
+    "publish": "2023-09-07T11:02:49Z",
+    "created": "2023-09-07T11:05:55.559Z",
+    "updated": "2023-09-08T16:33:58.477Z",
+    "status": "PB",
+    "author": 1
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 3,
+  "fields": {
+    "title": "One more post",
+    "slug": "one-more-post",
+    "body": "Post body.",
+    "publish": "2023-09-07T13:23:25Z",
+    "created": "2023-09-07T13:23:25.399Z",
+    "updated": "2023-09-07T15:16:03.318Z",
+    "status": "PB",
+    "author": 1
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 4,
+  "fields": {
+    "title": "what is next js ?",
+    "slug": "what-is-next-js",
+    "body": "Next.js is a popular open-source JavaScript framework that is used for building web applications, particularly single-page applications (SPAs) and server-rendered applications. It is built on top of React, another popular JavaScript library for building user interfaces.\r\n\r\nHere's a brief overview of Next.js:\r\n\r\n1. **Server-Side Rendering (SSR):** Next.js allows you to perform server-side rendering, which means that some or all of the HTML for a web page is generated on the server rather than the client's browser. This can improve performance and SEO.\r\n\r\n2. **Client-Side Routing:** Next.js provides a simple and efficient client-side routing system. This allows for dynamic loading of pages as users navigate your application, without the need for a full page reload.\r\n\r\n3. **Static Site Generation (SSG):** Next.js also supports static site generation, where the entire website is pre-rendered as static HTML files at build time. This can lead to extremely fast-loading websites.\r\n\r\n4. **API Routes:** You can create API endpoints within your Next.js application, making it easy to handle server-side logic and data fetching.\r\n\r\n5. **Hot Module Replacement (HMR):** Next.js includes HMR, which allows for real-time updates to your application as you develop, making the development process faster and more efficient.\r\n\r\n6. **Optimized for Production:** Next.js provides features like automatic code splitting and bundling, optimized image loading, and other performance enhancements to ensure that your production application is efficient and fast.\r\n\r\n7. **Developer-Friendly:** Next.js offers a developer-friendly experience with features like automatic routing, CSS-in-JS support, and a rich ecosystem of plugins and extensions.\r\n\r\nOverall, Next.js simplifies the development of React applications, providing tools and features to handle various aspects of web development, including routing, rendering, and optimization. It has gained popularity for its ease of use and ability to create high-performance web applications.",
+    "publish": "2023-09-07T17:10:20Z",
+    "created": "2023-09-07T17:11:19.795Z",
+    "updated": "2023-09-07T17:11:19.795Z",
+    "status": "PB",
+    "author": 1
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 5,
+  "fields": {
+    "title": "what is DQN ?",
+    "slug": "what-is-dqn",
+    "body": "DQN stands for Deep Q-Network, and it is a reinforcement learning algorithm used in machine learning and artificial intelligence. Specifically, DQN is a neural network-based approach for solving problems where an agent interacts with an environment to learn optimal actions through trial and error.\r\n\r\nHere's a breakdown of DQN:\r\n\r\n1. **Q-Learning:** DQN is based on Q-learning, a reinforcement learning technique used to estimate the quality of actions in a given state. The Q-value represents the expected cumulative reward that an agent can obtain by taking a particular action in a specific state.\r\n\r\n2. **Deep Neural Networks:** DQN uses deep neural networks to approximate the Q-values. The neural network takes the current state of the environment as input and outputs a Q-value for each possible action. This allows DQN to handle high-dimensional state spaces, making it suitable for tasks like playing video games, where raw pixel data serves as the input.\r\n\r\n3. **Experience Replay:** DQN employs a technique called experience replay. During training, the agent stores experiences (state, action, reward, next state) in a replay buffer. These experiences are randomly sampled during training, which helps stabilize and improve learning by breaking the temporal correlation between consecutive experiences.\r\n\r\n4. **Target Network:** To make training more stable, DQN uses a target network. The target network is a separate copy of the Q-network that is periodically updated with the parameters of the Q-network. This helps in reducing the variance in Q-value estimates during training.\r\n\r\n5. **Exploration vs. Exploitation:** DQN balances exploration (trying new actions to discover potentially better ones) and exploitation (choosing actions that are currently believed to be the best) using an epsilon-greedy policy. This means the agent has a probability of selecting a random action (exploration) or the action with the highest estimated Q-value (exploitation).\r\n\r\nDQN has been used successfully in various applications, including playing Atari 2600 games, robotic control, and other sequential decision-making tasks. It has paved the way for more advanced reinforcement learning algorithms and deep reinforcement learning research, contributing to the development of AI systems that can learn complex tasks autonomously.",
+    "publish": "2023-09-07T17:11:29Z",
+    "created": "2023-09-07T17:12:15.913Z",
+    "updated": "2023-09-08T16:18:24.027Z",
+    "status": "PB",
+    "author": 1
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 6,
+  "fields": {
+    "title": "Markdown Post",
+    "slug": "markdown-post",
+    "body": "This is a post formatted with markdown\r\n--------------------------------------\r\n\r\n*This is emphasized* and **this is more emphasized**.\r\n\r\nHere is a list:\r\n\r\n* One\r\n\r\n* Two\r\n\r\n* Three\r\n\r\nAnd a [link to the Django website](https://www.djangoproject.com/).",
+    "publish": "2023-09-09T09:56:15Z",
+    "created": "2023-09-09T09:57:11.672Z",
+    "updated": "2023-09-09T09:59:17.831Z",
+    "status": "PB",
+    "author": 1
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 1,
+  "fields": {
+    "post": 1,
+    "name": "Abdissa Degefu",
+    "email": "abdissaDegefu1@gmail.com",
+    "body": "Not so accurate",
+    "created": "2023-09-08T11:12:19.914Z",
+    "updated": "2023-09-08T12:14:35.396Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 2,
+  "fields": {
+    "post": 1,
+    "name": "Qwe Bolo",
+    "email": "boominway1@gmail.com",
+    "body": "I agree with abdissa",
+    "created": "2023-09-08T11:12:52.997Z",
+    "updated": "2023-09-08T11:12:52.997Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 3,
+  "fields": {
+    "post": 1,
+    "name": "Rango",
+    "email": "rango@gmail.com",
+    "body": "You're both wrong.",
+    "created": "2023-09-08T12:11:58.581Z",
+    "updated": "2023-09-08T12:11:58.581Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 4,
+  "fields": {
+    "post": 4,
+    "name": "Rango",
+    "email": "rango@gmail.com",
+    "body": "It is quite a good description.",
+    "created": "2023-09-08T16:34:39.624Z",
+    "updated": "2023-09-08T16:34:39.624Z",
+    "active": true
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "Next JS 13",
+    "slug": "next-js-13"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 2,
+  "fields": {
+    "name": "Web Development",
+    "slug": "web-development"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 3,
+  "fields": {
+    "name": "Best Framework",
+    "slug": "best-framework"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 4,
+  "fields": {
+    "name": "RL",
+    "slug": "rl"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 5,
+  "fields": {
+    "name": "AI",
+    "slug": "ai"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 6,
+  "fields": {
+    "name": "DL",
+    "slug": "dl"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 7,
+  "fields": {
+    "name": "Web development",
+    "slug": "web-development_1"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 8,
+  "fields": {
+    "name": "Django",
+    "slug": "django"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 9,
+  "fields": {
+    "name": "Markdown",
+    "slug": "markdown"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 2,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 4
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 3,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 4
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 4,
+  "fields": {
+    "tag": 4,
+    "content_type": 7,
+    "object_id": 5
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 5,
+  "fields": {
+    "tag": 5,
+    "content_type": 7,
+    "object_id": 5
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 6,
+  "fields": {
+    "tag": 6,
+    "content_type": 7,
+    "object_id": 5
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 7,
+  "fields": {
+    "tag": 8,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 9,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 10,
+  "fields": {
+    "tag": 9,
+    "content_type": 7,
+    "object_id": 6
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 1,
+  "fields": {
+    "domain": "localhost:8000",
+    "name": "localhost:8000"
+  }
+}
+]
